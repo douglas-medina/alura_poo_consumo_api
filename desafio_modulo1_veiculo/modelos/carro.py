@@ -7,4 +7,4 @@ class Carro(Veiculo):
 
     def __str__(self) -> str:
         status = 'ligado' if self._ligado else 'desligado'
-        return f'O veículo {self.modelo}, marca {self.marca} tem {self.portas} e está {status}'
+        return f'O veículo {self.modelo}, marca {self.marca} tem {self.portas} e está {status}.'
